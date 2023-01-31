@@ -1,0 +1,172 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "propertyId",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "addressP",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "pricePerNight",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32[]",
+						"name": "images",
+						"type": "bytes32[]"
+					},
+					{
+						"internalType": "bytes32[]",
+						"name": "documents",
+						"type": "bytes32[]"
+					}
+				],
+				"name": "addProperty",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "propertyId",
+						"type": "bytes32"
+					}
+				],
+				"name": "getProperty",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "addressP",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "pricePerNight",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32[]",
+						"name": "images",
+						"type": "bytes32[]"
+					},
+					{
+						"internalType": "bytes32[]",
+						"name": "documents",
+						"type": "bytes32[]"
+					},
+					{
+						"internalType": "bool",
+						"name": "refundRequested",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getUser",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "reputationScore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numberOfRatings",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Storage.sol": "PropertyRental"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_Storage.sol": {
+			"keccak256": "0x89e7d8cb78768a66a89e7b5a20addeee7da8dd164ee0d0418730ccc9b1c4c1c0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9f7b9da0e6e95e7fe20a96d8ebf84345955f660defdda0f3f665b3f1a1a397cb",
+				"dweb:/ipfs/QmSZvzbtDEEr7Qc4yg6iGgUhhLA7xpzjsJfar48tQGx1nA"
+			]
+		}
+	},
+	"version": 1
+}

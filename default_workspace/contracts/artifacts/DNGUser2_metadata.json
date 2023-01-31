@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testApprove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testGetData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testGetDataHash",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testStoreData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testTransferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DNGUser.sol": "DNGUser2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DNG.sol": {
+			"keccak256": "0x02c923dead1066f67b522201d649d74367ca65d232239ead457785d9db8ec53c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8bb7477c1e6393fa61407183538e0503a90583c7e0eda9457f6ad59ddd82197d",
+				"dweb:/ipfs/QmcT6gTw7p13aWZfhVMgfUA2sFiq5WuFBh1WqpeZdGgoqk"
+			]
+		},
+		"contracts/DNGUser.sol": {
+			"keccak256": "0xa68871e669bfed44c96cf2cc465c3ab2a5c11e57793d0627428b4119571ae901",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fa8229867e166f8cb7b5e1741a27bb1a5d1a5c8cd1605a262aeb67ec055841d3",
+				"dweb:/ipfs/QmW83vvzjsCpNGVGaQkYx1aZkKiijBmvmutHq9ro7WExsL"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Strings.sol": {
+			"keccak256": "0x2626d8ab3dfdad0fad630c212ad146d59473d0f48b771784c61a7c1dbbea1f3f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d7c144532f1e7c76ac95fb6a8f617c1f740d7a73442a907eb60910e99dfa1fbf",
+				"dweb:/ipfs/QmZsGyooD6emxB8JCuugRjnRYS2MPZEL586uuV7dgC8Jng"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/cryptography/ECDSA.sol": {
+			"keccak256": "0x54ee424bfc83ce63b2a918b9a1efb5090a0fb68dbd1de3b10bc667776885dd4f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c8245bd91b51a6e411db1a68397e6d89ea76d28fd3fff2b5986ebd860c43aca",
+				"dweb:/ipfs/QmUBfM8dUuxABn9ctfZWqierQbbux6NuhvSmQuSdrSEdch"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/Math.sol": {
+			"keccak256": "0x3546b156d97633f7f8cad536d5454c81d1d604687c02b2eb105fdc33cb962b41",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fc373869014f80e7ad928ae44bb7678a2d7aacf213fb0ce36bcbbb3166845903",
+				"dweb:/ipfs/QmUaRPa2Nm2WfKeCq8yRCR94JZFCnfr4xw9LJADWxhTcwt"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SignedMath.sol": {
+			"keccak256": "0xf92515413956f529d95977adc9b0567d583c6203fc31ab1c23824c35187e3ddc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c50fcc459e49a9858b6d8ad5f911295cb7c9ab57567845a250bf0153f84a95c7",
+				"dweb:/ipfs/QmcEW85JRzvDkQggxiBBLVAasXWdkhEysqypj9EaB6H2g6"
+			]
+		}
+	},
+	"version": 1
+}
